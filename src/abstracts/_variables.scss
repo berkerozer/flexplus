@@ -1,0 +1,30 @@
+$min-breakpoints: (
+  'xxs' : 0,
+  'xs' : 576px,
+  'sm' : 768px,
+  'md' : 992px,
+  'lg' : 1200px
+) !default;
+
+$max-breakpoints: (
+  'xxs' : 575px,
+  'xs' : 767px,
+  'sm' : 991px,
+  'md' : 1199px
+) !default;
+
+$min-screens: (
+  'mobile' : 0,
+  'tablet' : 600px,
+  'desktop' : 992px
+) !default;
+
+$xxs : 0px;
+$xs : 576px;
+$sm : 768px;
+$md : 992px;
+$lg : 1200px;
+
+$mobile : 0px;
+$tablet : 600px;
+$desktop : 992px;

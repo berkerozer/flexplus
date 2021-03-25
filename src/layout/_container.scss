@@ -1,0 +1,38 @@
+.container {
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.container-fluid {
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@include screenFrom($xs){
+  .container {
+    max-width: 544px;
+  }
+  .container-fluid {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@include screenFrom($sm){
+  .container {
+    max-width: 722px;
+  }
+}
+@include screenFrom($md){
+  .container {
+    max-width: 962px;
+  }
+}
+@include screenFrom($lg){
+  .container {
+    max-width: 1142px;
+  }
+}

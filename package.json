@@ -1,0 +1,12 @@
+{
+  "name": "flexplus",
+  "version": "1.0.0",
+  "description": "Css library for easy flex system!",
+  "main": "index.js",
+  "scripts": {
+    "dev-css": "sass src/main.scss:app.css --watch",
+    "build-css": "sass src/main.scss:app.css"
+  },
+  "author": "\"Berker Özer | me@berkerozer.com.tr | github : berkerozer\"",
+  "license": "MIT"
+}

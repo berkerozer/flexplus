@@ -1,0 +1,40 @@
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.col.--left{
+  align-items: center
+}
+
+.col.--right{
+  align-items: center
+}
+
+.col.--mid-x{
+  align-items: center
+}
+
+.col.--space-bt{
+  justify-content: space-between;
+}
+
+.col.--space-ar{
+  justify-content: space-around;
+}
+
+.col.--space-ev{
+  justify-content: space-evenly;
+}
+
+.col.--order{
+  order: 1;
+}
+
+.col.--shrink{
+  flex-shrink: 1;
+}
+
+.col.--grow {
+  flex-grow: 1;
+}

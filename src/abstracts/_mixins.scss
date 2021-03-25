@@ -1,0 +1,11 @@
+@mixin screenFrom($min) {
+  @media (min-width: $min) { @content ; }
+}
+
+@mixin screenTo($max) {
+  @media (max-width: $max - 1px) { @content ; }
+}
+
+@mixin screenFromTo($min, $max) {
+  @media (min-width: $min) and (max-width: $max - 1px) { @content }
+}
